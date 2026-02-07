@@ -8,8 +8,9 @@ const nextConfig = {
       },
       {
         source: "/projects/truechat",
-        destination: "https://frontend-puce-omega-74.vercel.app",
-      },
+        destination: "https://www.google.com",
+      }
+
     ];
   },
 };
