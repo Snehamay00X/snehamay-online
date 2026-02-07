@@ -4,13 +4,11 @@ const nextConfig = {
     return [
       {
         source: "/projects/truechat/:path*",
-        destination:
-          "https://frontend-puce-omega-74.vercel.app/projects/truechat/:path*",
+        destination: "https://frontend-puce-omega-74.vercel.app/:path*",
       },
       {
         source: "/projects/truechat",
-        destination:
-          "https://frontend-puce-omega-74.vercel.app/projects/truechat",
+        destination: "https://frontend-puce-omega-74.vercel.app",
       },
     ];
   },
